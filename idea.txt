@@ -1,0 +1,39 @@
+1. Header idea
+
+    About
+    Missions
+    
+
+    <section id="about_page">
+
+            <h1 style="font-family: Poppins; font-size: 50px; font-weight: 700; color: #454360; margin-left:20%;">About ISRO</h1>
+            <div id="image_logo"><img style="height: 100px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/800px-Indian_Space_Research_Organisation_Logo.svg.png" alt="ISRO Logo"></div>
+            <div><p id="isro_intro">The Indian Space Research Organisation (ISRO) is the space agency of the Government of India, established on August 15, 1969, with its headquarters in Bengaluru, Karnataka. ISRO has achieved remarkable progress in space exploration and technology development. Its primary objectives include space exploration, communication, navigation, earth observation, and space science research. ISRO's applications of space technology have significantly impacted sectors like agriculture, forestry, fisheries, water resources, urban planning, and rural development. Through scientific experiments and studies of celestial bodies, ISRO continues to expand our understanding of the universe.</p></div>
+    </section> 
+
+
+    #myImage {
+  position: absolute;
+  bottom: -10vh;
+  left: 100vw;
+
+
+}
+
+
+    <div style="font-family:Poppins; font-size: 4vw; font-weight: bolder; color: #454360; text-align: center;" id="about">Missions</div>
+
+    <div class="row">
+        <div class="column">
+          <div onclick="popupch1()" class="popup"><img src="chandra1.webp" alt="Snow" style="width:100%" class="img_mis">
+          <span class="popuptext" id="myPopup">Popup text...</span></div>
+        </div>
+        <div class="column">
+            <div onclick="popupch2()" class="popup"><img src="https://gumlet.assettype.com/swarajya%2F2019-09%2Fe32f4670-bc4c-4dcd-afea-29e743128fda%2F8Wf72fw9qxJVCFwbDnB5lCTRYLFw4fnA9UjN8TXvYVs.jpg?auto=format%2Ccompress&w=400&dpr=2.6" alt="Snow" style="width:100%" class="img_mis">
+            <span class="popuptext" id="myPopup2">Popup text 2...</span></div>
+        </div>
+        <div class="column">
+            <div onclick="popupch3()" class="popup"><img src="https://i.natgeofe.com/n/3eebaa06-4f3c-42e2-b149-d5eec16c229b/01_chandrayaan_psk2826_square.jpg" alt="Snow" style="width:100%" class="img_mis">
+            <span class="popuptext" id="myPopup3">Popup text 3...</span></div>
+        </div>
+      </div>
